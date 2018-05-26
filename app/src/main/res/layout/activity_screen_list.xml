@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    tools:context="ws.wolfsoft.mobile.Screen_list">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="V Commerce product list"
+        android:id="@+id/screen1"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp"
+        android:background="#8f8d8d"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="V Commerce Mobile"
+        android:id="@+id/screen2"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp"
+        android:background="#8f8d8d"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="V Commerce OTP"
+        android:id="@+id/screen3"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp"
+        android:background="#8f8d8d"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="V Commerce Category"
+        android:id="@+id/screen4"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp"
+        android:background="#8f8d8d"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="V Commerce walkthrough"
+        android:id="@+id/screen5"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp"
+        android:background="#8f8d8d"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="V Commerce subcategory"
+        android:id="@+id/screen6"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp"
+        android:background="#8f8d8d"/>
+</LinearLayout>

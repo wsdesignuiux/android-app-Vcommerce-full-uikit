@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f6f6f6"
+    tools:context=".V_Commerce_subcategory">
+
+    <include layout="@layout/toolbar_subcategory"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/View_line"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+
+            <customfonts.TextViewSFProDisplayMedium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Filter by Price Range"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="12dp"
+                android:textSize="13.3sp"
+                android:textColor="@color/black"/>
+
+            <!--Price Recycelerview-->
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:paddingTop="15dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:nestedScrollingEnabled="false"
+                android:id="@+id/rv1"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#e3e3e3"
+                android:layout_marginTop="17dp"/>
+
+            <customfonts.TextViewSFProDisplayMedium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Go by Brands"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:textSize="13.3sp"
+                android:textColor="@color/black"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/profile_image"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="73dp"
+                        android:src="@drawable/man"
+                        android:layout_gravity="center"
+                        app:civ_border_width="1dp"
+                        app:civ_border_color="#5f707070"/>
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/profile_image1"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="73dp"
+                        android:src="@drawable/man"
+                        android:layout_gravity="center"
+                        app:civ_border_width="1dp"
+                        app:civ_border_color="#5f707070"/>
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/profile_image2"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="73dp"
+                        android:src="@drawable/man"
+                        android:layout_gravity="center"
+                        app:civ_border_width="1dp"
+                        app:civ_border_color="#5f707070"/>
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/profile_image3"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="73dp"
+                        android:src="@drawable/man"
+                        android:layout_gravity="center"
+                        app:civ_border_width="1dp"
+                        app:civ_border_color="#5f707070"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_marginTop="12dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image8"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/man"
+                    android:layout_gravity="center"
+                    app:civ_border_width="1dp"
+                    app:civ_border_color="#5f707070"/>
+
+                <customfonts.MyTextView_Roboto_Medium
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mens Wear"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/girl"
+                    android:layout_gravity="center"
+                    app:civ_border_width="1dp"
+                    app:civ_border_color="#5f707070"/>
+
+                <customfonts.MyTextView_Roboto_Medium
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Womens Wear"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_imag2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ring"
+                    android:layout_gravity="center"
+                    app:civ_border_width="1dp"
+                    app:civ_border_color="#5f707070"/>
+
+                <customfonts.MyTextView_Roboto_Medium
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jewellery"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image7"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/sports"
+                    android:layout_gravity="center"
+                    app:civ_border_width="1dp"
+                    app:civ_border_color="#5f707070"/>
+
+                <customfonts.MyTextView_Roboto_Medium
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sports"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="22dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/bag"
+                    android:layout_gravity="center"
+                    app:civ_border_width="1dp"
+                    app:civ_border_color="#5f707070"/>
+
+                <customfonts.MyTextView_Roboto_Medium
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bags"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <!--<de.hdodenhof.circleimageview.CircleImageView-->
+                <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+                <!--android:id="@+id/profile_image5"-->
+                <!--android:layout_width="50dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:src="@drawable/girl"-->
+                <!--android:layout_gravity="center"-->
+                <!--app:civ_border_width="2dp"-->
+                <!--app:civ_border_color="#5f707070"/>-->
+
+                <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Womens Wear"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:gravity="center"-->
+                <!--android:textSize="12dp"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:layout_marginTop="10dp"/>-->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <!--<de.hdodenhof.circleimageview.CircleImageView-->
+                <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+                <!--android:id="@+id/profile_imag6"-->
+                <!--android:layout_width="50dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:src="@drawable/ring"-->
+                <!--android:layout_gravity="center"-->
+                <!--app:civ_border_width="2dp"-->
+                <!--app:civ_border_color="#5f707070"/>-->
+
+                <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Jewellery"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:gravity="center"-->
+                <!--android:textSize="12dp"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:layout_marginTop="10dp"/>-->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <!--<de.hdodenhof.circleimageview.CircleImageView-->
+                <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+                <!--android:id="@+id/profile_image7"-->
+                <!--android:layout_width="50dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:src="@drawable/sports"-->
+                <!--android:layout_gravity="center"-->
+                <!--app:civ_border_width="2dp"-->
+                <!--app:civ_border_color="#5f707070"/>-->
+
+                <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Sports"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:gravity="center"-->
+                <!--android:textSize="12dp"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:layout_marginTop="10dp"/>-->
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
